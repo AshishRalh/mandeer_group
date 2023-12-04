@@ -1,22 +1,38 @@
-export const dropdownOptions = [{
-    name :"IBM",
-    value:"IBM"
+export const dropdownOptions = [
+{
+    name :"JPMorgan Chase & Co.",
+    value:"JPM",
+    newsName:"JPMorgan"
 },
 {
-    name :"IBM1",
-    value:"IBM1"
+    name :"Honeywell International Inc.",
+    value:"HON",
+    newsName:"honeywell"
 },
 {
-    name :"IBM2",
-    value:"IBM2"
+    name :"Walmart",
+    value:"(WMT)",
+    newsName:"wallmart"
 },
 {
-    name :"IBM3",
-    value:"IBM3"
+    name :"Salesforce",
+    value:"crm",
+    newsName:"salesforce"
 },
 {
-    name :"IBM4",
-    value:"IBM"
+    name:"Facebook, Inc. (FB)",
+    value:"facebook",
+    newsName:"facebook"
+},
+{
+    name:"Oracle Corporation (ORCL)",
+    value:"oracle",
+    newsName:"oracle"
+},
+{
+    name:"PepsiCo, Inc. (PEP)",
+    value:"PepsiCo",
+    newsName:"PepsiCo"
 }
 ]
 

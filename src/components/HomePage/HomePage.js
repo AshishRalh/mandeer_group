@@ -29,10 +29,10 @@ const HomePage = () => {
       }));
 
 
-    //    const formattedData = Object.keys(dt).map(date => ({
-    //     date,
-    //     ...dt[date]
-    //   }));
+      //  const formattedData = Object.keys(dt).map(date => ({
+      //   date,
+      //   ...dt[date]
+      // }));
 
 
       setStockData(formattedData);
@@ -40,7 +40,7 @@ const HomePage = () => {
     const newsDt = await  fetchNewsDetails(selectedDropdownIndex);
       setNewsData(newsDt.articles)
 
-    // setNewsData(mockNewsDt);
+    //  setNewsData(mockNewsDt);
    
  
     } catch (error) {
