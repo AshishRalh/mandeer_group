@@ -42,9 +42,7 @@ Mandeer Stock API delivers real-time financial information, providing users inst
                </div>
                <div className={classes.data} >
                 <p>Financial News and Updates</p>
-                <p>Portfolio Tracking</p>
                 <p>Research and Analysis</p>
-                <p>Personal Finance Management</p>
                </div>
             </div>
             <Card />

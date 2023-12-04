@@ -15,7 +15,7 @@ export function fetchStockDetails(index){
       function: 'TIME_SERIES_DAILY',
       symbol: getStockSearchValue(index),
       interval: '5min',
-      apikey: 'OQ9CGP8R8KIF0K30',
+      apikey: '2OLU95DJ1N4FVF49',
     };
     
     const config = {

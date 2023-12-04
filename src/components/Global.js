@@ -11,27 +11,27 @@ export const dropdownOptions = [
 },
 {
     name :"Walmart",
-    value:"(WMT)",
+    value:"WMT",
     newsName:"wallmart"
 },
 {
     name :"Salesforce",
-    value:"crm",
+    value:"CRM",
     newsName:"salesforce"
 },
 {
     name:"Facebook, Inc. (FB)",
-    value:"facebook",
+    value:"META",
     newsName:"facebook"
 },
 {
     name:"Oracle Corporation (ORCL)",
-    value:"oracle",
+    value:"ORCL",
     newsName:"oracle"
 },
 {
     name:"PepsiCo, Inc. (PEP)",
-    value:"PepsiCo",
+    value:"PEP",
     newsName:"PepsiCo"
 }
 ]
