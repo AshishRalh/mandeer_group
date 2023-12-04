@@ -4,13 +4,16 @@ const url = 'https://www.alphavantage.co/query';
 
 
 
-function getSearchValue(index){
+function getStockSearchValue(index){
   return dropdownOptions[index].value;
+}
+function getNewsSearchValue(index){
+  return dropdownOptions[index].newsName;
 }
 export function fetchStockDetails(index){
     const params = {
       function: 'TIME_SERIES_DAILY',
-      symbol: getSearchValue(index),
+      symbol: getStockSearchValue(index),
       interval: '5min',
       apikey: 'OQ9CGP8R8KIF0K30',
     };
@@ -35,7 +38,7 @@ export function fetchStockDetails(index){
 export const fetchNewsDetails = async (index) => {
   const url = 'https://newsapi.org/v2/everything';
   const params = {
-    q: getSearchValue(index),
+    q: getNewsSearchValue(index),
     from: '2023-11-30',
     sortBy: 'publishedAt',
     apiKey: 'f9bcacf9f0db42e8bc3386e8032177c5',
