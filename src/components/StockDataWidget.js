@@ -3,12 +3,12 @@ import './StockDataWidget.css';
 // ... (your existing imports and component definition)
 
 const StockDataWidget = ({ data }) => {
-  const [currentDateIndex, setCurrentDateIndex] = useState(0);
   const [isDataChanged, setIsDataChanged] = useState(false);
   const dates = data.map(obj => obj.date);
 
   // Sort data by date in ascending order
   const sortedData = [...data].sort((a, b) => new Date(a.date) - new Date(b.date));
+  const [currentDateIndex, setCurrentDateIndex] = useState(sortedData.length - 1);
 
   const formatDate = date => {
     const formattedDate = new Date(date);

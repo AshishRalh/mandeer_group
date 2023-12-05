@@ -16,7 +16,7 @@ export const dropdownOptions = [
 },
 {
     name :"Salesforce",
-    value:"crm",
+    value:"CRM",
     newsName:"salesforce"
 },
 {
@@ -26,12 +26,12 @@ export const dropdownOptions = [
 },
 {
     name:"Oracle Corporation (ORCL)",
-    value:"oracle",
+    value:"ORCL",
     newsName:"oracle"
 },
 {
     name:"PepsiCo, Inc. (PEP)",
-    value:"PepsiCo",
+    value:"PEP",
     newsName:"PepsiCo"
 }
 ]
