@@ -2,17 +2,17 @@ export const dropdownOptions = [
 {
     name :"JPMorgan Chase & Co.",
     value:"JPM",
-    newsName:"JPMorgan"
+    newsName:"JPMorgan Chase & Co."
 },
 {
     name :"Honeywell International Inc.",
     value:"HON",
-    newsName:"honeywell"
+    newsName:"Honeywell International Inc."
 },
 {
     name :"Walmart",
-    value:"(WMT)",
-    newsName:"wallmart"
+    value:"WMT",
+    newsName:"WMT"
 },
 {
     name :"Salesforce",
@@ -21,8 +21,8 @@ export const dropdownOptions = [
 },
 {
     name:"Facebook, Inc. (FB)",
-    value:"facebook",
-    newsName:"facebook"
+    value:"META",
+    newsName:"Facebook, Inc."
 },
 {
     name:"Oracle Corporation (ORCL)",
