@@ -62,7 +62,7 @@ const Graph = ({ data }) => {
           type: "spline",
           name: "Open Price",
           showInLegend: true,
-          xValueFormatString: "MMM YYYY",
+          xValueFormatString: "MMM DD YYYY",
           yValueFormatString: "$#,##0.#",
           dataPoints: mapDataToDataPoints(data, '1. open')
         },
@@ -70,7 +70,7 @@ const Graph = ({ data }) => {
           type: "spline",
           name: "Close Price",
           showInLegend: true,
-          xValueFormatString: "MMM YYYY",
+          xValueFormatString: "MMM DD YYYY",
           yValueFormatString: "$#,##0.#",
           dataPoints: mapDataToDataPoints(data, '4. close')
         },
@@ -78,7 +78,7 @@ const Graph = ({ data }) => {
           type: "column",
           name: "Volume",
           showInLegend: true,
-          xValueFormatString: "MMM YYYY",
+          xValueFormatString: "MMM DD YYYY",
           yValueFormatString: "#,##0.#",
           axisYType: "secondary",
           dataPoints: mapDataToDataPoints(data, '5. volume')

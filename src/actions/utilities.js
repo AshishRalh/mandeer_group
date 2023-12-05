@@ -41,7 +41,9 @@ export const fetchNewsDetails = async (index) => {
     q: getNewsSearchValue(index),
     from: '2023-11-30',
     sortBy: 'publishedAt',
-    apiKey: 'f9bcacf9f0db42e8bc3386e8032177c5',
+    apiKey: '19bcb9019abf4e90bb5dfe1d2cf0b3e7',
+    language: 'en'
+
   };
 
   try {
